@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+.container{
+  margin: 20px auto;
+  width: 1200px;
+  height: 900px;
+  background: rgba(0,0,0,0.4);
+  border: 1px solid black;
+  border-radius: 10px;
+
+}
+
+.logo{
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.logo img{
+  max-width: 100%;
+  margin-top: 40%;
+}
+
+.logo-text{
+  font-size: 40px;
+  color: lime;
+  text-align: center;
+}
+
+.prenotazione{
+  width: 1000px;
+  height: 40px;
+  background: lime;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.prenotazione button{
+  margin-top: 8px;
+}
+
+
+.monopattino{
+  margin-top: 25px;
+  margin-left: 100px;
+  font-size: 20px;
+  color: white;
+}
+
+.nome-monopattino{
+  display: inline-block;
+  font-size: 25px;
+
+}
+
+.luogo, .carica{
+  font-size: 15px;
+}
+
+p::before{
+  content: "\27BC";
+}
+
+.stato-1{
+  background: #FFA500;
+  width: 250px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.stato-2{
+  background: #32CD32;
+  width: 500px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.stato-3{
+  background: #B22222;
+  width: 130px;
+  height: 25px;
+  border-radius: 10px;
+}
